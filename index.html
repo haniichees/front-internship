@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content=" HTML, CSS" />
+    <meta
+      name="description"
+      content="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    />
+    <title>Задание #1</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <img src="images/logo.png" width="224" height="63" alt="logo" />
+      <h1>Итерация 1</h1>
+    </header>
+
+    <main>
+      <nav>
+        <h2>Навигация</h2>
+
+        <ul>
+          <li><a href="pages/page-1.html">Lorem ipsum dolor sit amet</a></li>
+          <li><a href="pages/page-2.html">Lorem ipsum dolor sit amet</a></li>
+          <li><a href="pages/page-3.html">Lorem ipsum dolor sit amet</a></li>
+        </ul>
+      </nav>
+
+      <section id="intro">
+        <h2>Оглавление</h2>
+
+        <ul>
+          <li>
+            <a href="#first-content">Первое содержимое</a>
+          </li>
+          <li>
+            <a href="#second-content">Второе содержимое</a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="main">
+        <h2>Содержимое</h2>
+
+        <article>
+          <h3 id="first-content">Первое содержимое</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </article>
+
+        <article>
+          <h3 id="second-content">Второе содержимое</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </article>
+      </section>
+
+      <section id="price-list">
+        <h2>Ассортимент</h2>
+        <table>
+          <tr>
+            <th>Lorem</th>
+            <th>ipsum</th>
+            <th>dolor</th>
+            <th>sit</th>
+            <th>amet</th>
+          </tr>
+          <tr>
+            <td>consectetur</td>
+            <td>&lt; 1,2%</td>
+            <td>33</td>
+            <td>330 мл</td>
+            <td>120 Р.</td>
+          </tr>
+          <tr>
+            <td>adipiscing <sup>elit</sup></td>
+            <td>&lt; 1%</td>
+            <td>35</td>
+            <td>0,5 л</td>
+            <td>150 Р.</td>
+          </tr>
+          <tr>
+            <td>sed <sup>do</sup></td>
+            <td>&lt; 0,5%</td>
+            <td>27</td>
+            <td>0,5 л</td>
+            <td>90 Р.</td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="order-form">
+        <h2>Заказать</h2>
+        <form action="#" method="post">
+          <p><i> Заполните форму </i></p>
+          <fieldset>
+            <legend>Контактная информация</legend>
+            <label for="fullname-field">ФИО:</label>
+            <input type="text" name="fullname" id="fullname-field" /><br />
+
+            <label for="phone-field">Номер телефона:</label>
+            <input type="text" name="phone" id="phone-field" /><br />
+
+            <label for="addphone-field">Доп. номер:</label>
+            <input type="text" name="addphone" id="addphone-field" /><br />
+
+            <label for="email-field">Email:</label>
+            <input type="text" name="email" id="email-field" /><br />
+            <label>
+              <input type="checkbox" name="subscription" />
+              Я согласен получать рассылку </label
+            ><br />
+          </fieldset>
+
+          <fieldset>
+            <legend>Детали заказа</legend>
+            <label for="topic">Объем заказа:</label>
+            <select name="topic" id="topic">
+              <option value="1">От 5 до 10</option>
+              <option value="2">От 10 до 50</option>
+              <option value="2">&gt; 50</option>
+            </select>
+            <br />
+
+            <label for="message">Доп. комментарий:</label>
+            <textarea name="message" rows="10" cols="50" id="message"></textarea
+            ><br />
+          </fieldset>
+
+          <input type="submit" value="Отправить заказ" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <address>
+        <strong>Разработчик: </strong>
+        <a href="https://github.com/haniichees">Evelina Pronchak</a>
+      </address>
+
+      <p>© Copyright 2021 Example Corp.</p>
+    </footer>
+  </body>
+</html>
